@@ -1,0 +1,87 @@
+body {
+	background-color:#232323;
+	margin:0;
+	font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+	color:white;
+	background-color: steelblue;
+	text-align: center;
+	font-weight: normal;
+	text-transform: uppercase;
+	line-height: 1.1;
+	margin:0;
+	padding: 20px 0;
+	transition:background-color .6s;
+	-webkit-transition:background-color .6s;
+	-moz-transition:background-color .6s;
+}
+
+button {
+	border: none;
+	background:none;
+	text-transform: uppercase;
+	font-weight: 800;
+	height: 100%;
+	color:steelblue;
+	letter-spacing: 1px;
+	font-size:inherit;
+	transition: all .3s;
+	-webkit-transition:all .3s;
+	-moz-transition:all .3s;
+	outline: none;
+}
+
+button:hover {
+	color:white;
+	background:steelblue;
+}
+
+p {
+	text-transform: uppercase;
+	font-weight: 900;
+	color:steelblue;
+	letter-spacing: 1px;
+	font-size:inherit;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	margin: 5px auto;
+}
+#message {
+	display: inline-block;
+	width: 20%;
+}
+
+#stripe {
+	background-color: white;
+	height: 30px;
+	text-align: center;
+}
+
+#container {
+	max-width:600px;
+	margin: 0 auto;
+}
+
+.square {
+	width: 30%;
+	margin: 0 1.66% 3% 1.66%;
+	background: purple;
+	padding-bottom: 30%;
+	float: left;
+	border-radius: 25px;
+	transition: background-color .6s;
+	-webkit-transition:background-color .6s;
+	-moz-transition:background-color .6s;
+}
+
+.selected {
+	color:white;
+	background:steelblue;
+}
+
+#colorDisplay {
+	font-size: 200%;
+}
